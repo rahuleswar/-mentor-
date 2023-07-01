@@ -1,0 +1,227 @@
+/* *******'''''''''''''''''''Mobile Responsive ''''''''''''''''''''********* */
+@media (max-width:576px)
+{
+.col-m1{
+    width: 8.33%;
+    padding: 0 12px;
+}
+
+.col-m2{
+	width: 16.66%;
+	padding: 0 12px;
+}
+
+.col-m3{
+	width: 25%;
+	padding: 0 12px;
+}
+
+.col-m4{
+	width: 33.33%;
+	padding: 0 12px;
+}
+
+.col-m5{
+	width: 41.66%;
+	padding: 0 12px;
+}
+
+.col-m6{
+	width: 50%;
+	padding: 0 12px;
+}
+
+.col-m7{
+	width:58.33% ;
+	padding: 0 12px;
+}
+
+.col-m8{
+	width:66.66% ;
+	padding: 0 12px;
+}
+
+.col-m9{
+	width:75% ;
+	padding: 0 12px;
+}
+
+.col-m10{
+	width:83.33% ;
+	padding: 0 12px;
+}
+
+.col-m11{
+	width: 91.66%;
+	padding: 0 12px;
+}
+
+
+.col-m12{
+	width: 100%;
+	padding: 0 12px;
+}
+header .h-menu{
+	display: none;
+}
+header .h-but{
+	text-align: center;
+	margin-top: 16px;
+}
+.home{
+    background-attachment: inherit;
+    background-position: top;
+}
+.h-content{
+	margin-top: 0px;
+}
+.h-content p{
+    font-size: 13px;
+    padding-right: 7em;
+}
+.h-content .h-but{
+	font-size: 10px;
+}
+.about .col-6 img{
+	margin-top: 10px;
+}
+.counter h4{
+	font-size: 20px;
+    margin-bottom: 4px;
+}
+.packegs .border a{
+	padding-top: 4px;
+	font-size: 10px;
+}
+.packegs .border i{
+	font-size: 21px;
+}
+.courses .col-4{
+	margin-bottom: 25px;
+}
+.trainers .col-4{
+	margin-bottom: 25px;
+}
+.contact .col-m12 , .contact .col-m6{
+	margin-bottom: 15px;
+} 
+footer .col-m12 .row{
+    justify-content: center;
+}
+
+}
+/* *******'''''''''''''''''''End Mobile Responsive ''''''''''''''''''''********* */
+
+/* *******'''''''''''''''''''Tablet Responsive ''''''''''''''''''''********* */
+
+@media (min-width:768px) and (max-width:992px)
+{
+.col-t1{
+    width: 8.33%;
+    padding: 0 12px;
+}
+
+.col-t2{
+	width: 16.66%;
+	padding: 0 12px;
+}
+
+.col-t3{
+	width: 25%;
+	padding: 0 12px;
+}
+
+.col-t4{
+	width: 33.33%;
+	padding: 0 12px;
+}
+
+.col-t5{
+	width: 41.66%;
+	padding: 0 12px;
+}
+
+.col-t6{
+	width: 50%;
+	padding: 0 12px;
+}
+
+.col-t7{
+	width:58.33% ;
+	padding: 0 12px;
+}
+
+.col-t8{
+	width:66.66% ;
+	padding: 0 12px;
+}
+
+.col-t9{
+	width:75% ;
+	padding: 0 12px;
+}
+
+.col-t10{
+	width:83.33% ;
+	padding: 0 12px;
+}
+
+.col-t11{
+	width: 91.66%;
+	padding: 0 12px;
+}
+
+
+.col-t12{
+	width: 100%;
+	padding: 0 12px;
+}
+
+header .h-name a{
+	font-size: 18px;
+}
+header .h-menu a{
+	font-size: 11px;
+}
+header .h-menu .active{
+	font-size: 11px;
+}
+header .h-but a{
+	font-size: 10px;
+}
+.home{
+    background-attachment: fixed;
+    background-position: -41em;
+}
+.h-content {
+	margin-top: 0px;
+    margin-left: 23em;
+}
+.h-content p{
+    font-size: 14px;
+}
+.h-content .h-but{
+	font-size: 12px;
+}
+.about .col-6 img{
+	margin-top: 2em;
+}
+.packegs .border a{
+	font-size: 13px;
+}
+.courses .col-4 .c-bg3{
+    margin-top: 2em;
+}
+.trainers .col-4 .t-bg3{
+	margin-top: 2em;
+}
+.contact .Subscribe{
+	margin-top: 2em;
+}
+.contact .Subscribe .button{
+	left: -8em;
+    top: 0px;
+}
+}
+
+/* *******'''''''''''''''''''End Tablet Responsive ''''''''''''''''''''********* */
