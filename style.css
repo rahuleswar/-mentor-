@@ -74,7 +74,7 @@
 	padding: 0 12px;
 }
 section{
-	margin-bottom: 5em;
+	padding:60px 0px;
 }
 a{
 	text-decoration: none;
@@ -100,8 +100,9 @@ ul{
 /* *******'''''''''''''''''' Header '''''''''''''''''''''********* */
 header{
 	width: 100%;
-	padding: 10px;
+	padding: 10px 0px;
     position: fixed;
+    z-index: 100;
     background-color: white;
 }
 header .h-menu, .h-but{
@@ -118,29 +119,47 @@ header .list{
 }
 header .list .active{
 	color: lightgreen;
+	font-size: 15px;
 	font-family: Poppins, sans-serif;
 	font-weight: 600;
 }
 header .list a{
-	color: #9e9e9e;
+	color: black;
+	display: flex;
 	font-family: Poppins, sans-serif;
+	font-size: 15px;
 }
 header .list a:hover{
 	color: lightgreen;
 	transition: 0.7s;
 }
+header .list .deep-Down{
+	position: relative;
+
+}
+header .list .deep-Down li a{
+	padding: 10px 16px;
+}
 header .list .deep-Down ul{
 	display: none;
+	padding: 10px 0px;
 }
-header .list .deep-Down:hover > ul{
+header .list .deep-Down:hover  ul{
 	display: block;
+	position: absolute;
+	height: 14em;
+	width: 180px;
+	background-color: white;
+	box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    transition: 0.9s;
+    border-radius: 4px;
 }
 header .but a{
 	border-radius: 25px;
-	background-color: lightgreen;
+	background-color: #5fcf80;
 	padding: 10px 35px;
 	margin-top: 10px;
-	color: #9e9e9e;
+	color: white;
 }
 /* *******''''''''''''''''''End Header '''''''''''''''''''''********* */
 
@@ -148,13 +167,14 @@ header .but a{
 /* *******'''''''''''''''''' Home '''''''''''''''''''''********* */
 .home{
 	background-image: url("img/hero-bg.jpg");
-	height: 30em;
+	height: 34em;
+    display: flex;
+    align-items: center;
 	background-size: cover;
 	background-attachment: fixed;
 }
 .h-content{
-	position: relative;
-	top: 12em;
+	margin-top: 70px;
 }
 .h-content h2{
     font-family: Poppins, sans-serif;
@@ -184,7 +204,7 @@ header .but a{
 .home .h-but a:hover{
 	background-color: #5fcf80;
 	border-color: #5fcf80;
-	transition: 0.7s;
+	transition: 0.8s;
 }
 
 /* *******''''''''''''''''''End Home '''''''''''''''''''''********* */
@@ -220,6 +240,7 @@ header .but a{
 
 /* *******'''''''''''''''''' Counter '''''''''''''''''''''********* */
 .counter{
+	padding: 30px 0px;
 	background-color: #9e9e9e38;
 }
 .counter h4{
@@ -384,21 +405,25 @@ header .but a{
 	width: 100%;
 	height: 12em;
 	background-size: cover;
+	margin-bottom: 8px;
 }
 .courses .c-bg2{
 	background-image: url("img/course-2.jpg");
 	width: 100%;
 	height: 12em;
 	background-size: cover;
+	margin-bottom: 8px;
 }
 .courses .c-bg3{
 	background-image: url("img/course-3.jpg");
 	width: 100%;
 	height: 12em;
 	background-size: cover;
+	margin-bottom: 8px;
 }
 .courses .flex{
 	justify-content: space-between;
+	margin-bottom: 1rem;
 }
 .courses h2{
 	font-family: Raleway, sans-serif;
@@ -406,14 +431,12 @@ header .but a{
 	font-size: 15px;
 	color: white;
 	padding: 5px;
-	margin: 10px;
 	background-color: #5fcf80;
 }
 .courses span{
 	font-family: "Open Sans", sans-serif;
 	font-weight: bold;
 	font-size: 20px;
-	margin: 10px;
 }
 .courses a{
 	font-family: Raleway, sans-serif;
@@ -422,7 +445,7 @@ header .but a{
 	color: black;
 }
 .courses h3{
-    margin: 10px;
+    margin-bottom: 10px;
 }
 .courses h3:hover a{
    color: #5fcf80;
@@ -431,12 +454,7 @@ header .but a{
 .courses p{
 	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
-	margin-left: 10px;
-	margin-bottom: 20px;
-}
-.courses .row{
-	justify-content: space-between;
-	margin: 0px 25px;
+	margin-bottom: 1rem;
 }
 .courses .left span{
 	font-size: 16px;
@@ -465,21 +483,21 @@ header .but a{
 .trainers .t-bg1{
 	background-image: url("img/trainers/trainer-1.jpg");
 	width: 100%;
-	height: 18em;
+	height: 24em;
 	background-size: cover; 
 	margin-bottom: 25px;  
 }
 .trainers .t-bg2{
 	background-image: url("img/trainers/trainer-2.jpg");
 	width: 100%;
-	height: 18em;
+	height: 24em;
 	background-size: cover;   
 	margin-bottom: 25px;
 }
 .trainers .t-bg3{
 	background-image: url("img/trainers/trainer-3.jpg");
 	width: 100%;
-	height: 18em;
+	height: 24em;
 	background-size: cover;  
 	margin-bottom: 25px; 
 }
@@ -565,15 +583,21 @@ header .but a{
     border: 0.8px solid;
     border-color: #777777;
 }
-.contact .Subscribe button{
+.contact .Subscribe .button{
 	border-radius: 30px;
 	font-family: "Open Sans", sans-serif;
+	color: white;
 	border: 0px;
     padding: 10px 30px;
     background-color: lightgreen;
     margin-top: 17px;
     position: relative;
-    left: 5em;
+    left: 11em;
+    top: -27px;
+}
+.contact .Subscribe .button:hover {
+	background-color: #3ac162;
+	transition: 0.8s;
 }
 /* *******''''''''''''''''''End contact '''''''''''''''''''''********* */
 
@@ -594,12 +618,14 @@ footer a{
 	font-weight: bold;
 }
 footer i{
-	padding: 15px;
-	margin: 5px;
-	font-size: 18px;
-	color: white;
-	background-color: rgb(95, 207, 128);
-	border-radius: 50%;
+	height: 2em;
+    width: 2em;
+    padding: 11px;
+    margin: 6px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(95, 207, 128);
+    border-radius: 50%;
 }
 footer .row{
 	justify-content: end;
