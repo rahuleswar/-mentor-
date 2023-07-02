@@ -66,7 +66,14 @@ header .h-menu{
 }
 header .h-but{
 	text-align: center;
-	margin-top: 16px;
+	margin-top: 9px;
+}
+header .but a{
+    font-size: 10px;
+    padding: 7px 22px;
+}
+header h1 a{
+	font-size: 22px;
 }
 .home{
     background-attachment: inherit;
@@ -91,10 +98,10 @@ header .h-but{
 }
 .packegs .border a{
 	padding-top: 4px;
-	font-size: 10px;
+	font-size: 7px;
 }
 .packegs .border i{
-	font-size: 21px;
+	font-size: 19px;
 }
 .courses .col-4{
 	margin-bottom: 25px;
@@ -187,11 +194,11 @@ header .h-menu .active{
 	font-size: 11px;
 }
 header .h-but a{
-	font-size: 10px;
+	font-size: 9px;
 }
 .home{
     background-attachment: fixed;
-    background-position: -41em;
+    background-position: -28em;
 }
 .h-content {
 	margin-top: 0px;
