@@ -98,7 +98,7 @@ header h1 a{
 }
 .packegs .border a{
 	padding-top: 4px;
-	font-size: 7px;
+	font-size: 10px;
 }
 .packegs .border i{
 	font-size: 19px;
@@ -112,6 +112,18 @@ header h1 a{
 .contact .col-m12 , .contact .col-m6{
 	margin-bottom: 15px;
 } 
+.contact .bi{
+	font-size: 12px;
+}
+.contact a{
+	font-size: 10px;
+}
+.contact .Subscribe .button{
+	font-size: 14px;
+}
+footer i{
+   font-size: 18px;
+}
 footer .col-m12 .row{
     justify-content: center;
 }
@@ -224,11 +236,6 @@ header .h-but a{
 }
 .contact .Subscribe{
 	margin-top: 2em;
-}
-.contact .Subscribe .button{
-	left: -8em;
-    top: 0px;
-}
 }
 
 /* *******'''''''''''''''''''End Tablet Responsive ''''''''''''''''''''********* */
